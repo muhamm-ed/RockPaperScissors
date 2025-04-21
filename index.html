@@ -4,8 +4,25 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <div class="display" id="display">
+      <div class="score-wrapper">
+        <p id="humanScore">0</p>
+        <p id="computerScore">0</p>
+      </div>
+      <p class="winner-wrapper" id="winner"></p>
+      <div class="choice-wrapper">
+        <p id="humanChoice"></p>
+        <p id="computerChoice"></p>
+      </div>
+    </div>
+    <div class="button-wrapper">
+      <button class="rock">Rock</button>
+      <button class="paper">Paper</button>
+      <button class="scissors">Scissors</button>
+    </div>
     <script src="script.js"></script>
   </body>
 </html>

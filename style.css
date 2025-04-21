@@ -1,0 +1,29 @@
+body {
+  color: #fff;
+  background-color: #000;
+}
+
+.display {
+  width: 200px;
+  height: 150px;
+}
+
+.button-wrapper {
+  width: 200px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.score-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.winner-wrapper {
+  text-align: center;
+}
+
+.choice-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
